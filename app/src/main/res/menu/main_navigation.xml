@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_polise"
+        android:icon="@drawable/icon_tab_polise"
+        android:title="Полисы" />
+    <item
+        android:id="@+id/navigation_talons"
+        android:icon="@drawable/icon_tab_talons"
+        android:title="Талоны" />
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/icon_tab_favorites"
+        android:title="Избраное" />
+    <item
+        android:id="@+id/navigation_options"
+        android:icon="@drawable/icon_tab_options"
+        android:title="Настройки" />
+
+</menu>

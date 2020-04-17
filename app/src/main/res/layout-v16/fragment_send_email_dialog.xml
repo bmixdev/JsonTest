@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/fragSndEmailDlg_header"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="16dp"/>
+    <EditText
+        android:id="@+id/fragSndEmailDlg_edit"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="6"
+        android:gravity="top|left"
+        android:maxLines="10"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+         android:scrollbars="vertical"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/fragSndEmailDlg_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal|center_vertical"/>
+</LinearLayout>

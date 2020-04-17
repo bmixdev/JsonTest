@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="table_view_default_text_color">#0a0a0a</color>
+    <color name="table_view_default_separator_color">#E7E7E7</color>
+    <color name="table_view_default_unselected_background_color">#ffffff</color>
+    <color name="table_view_default_selected_background_color">#fada65</color>
+    <color name="table_view_default_shadow_background_color">#f269f2</color>
+
+    <color name="level_0">#1abc9c</color>
+    <color name="level_1">#3498db</color>
+    <color name="level_2">#e67e22</color>
+    <color name="level_3">#8e44ad</color>
+    <color name="level_4">#f1c40f</color>
+    <color name="level_5">#2ecc71</color>
+    <color name="red">#FF0010</color>
+    <color name="black">#000000</color>
+    <color name="green">#38bc1a</color>
+    <color name="grey">#808080</color>
+    <color name="grey_ligth">#A7A7A7</color>
+    <color name="dark_grey">#5c5b5b</color>
+    <color name="level_default">#000000</color>
+    <color name="bg_header">#FFAE00</color>
+    <color name="colorMyLabel">#404040</color>
+    <color name="colorMyLiner">#D6D6D6</color>
+    <color name="colorShadow">#404040</color>
+    <color name="green_ligth">#7df363</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_line">#E7E7E7</color>
+    <color name="bg_color">#FF99DCD7</color>
+
+    <color name="cell_background_color">#ffffff</color>
+    <color name="cell_text_color">#1f1f1f</color>
+    <color name="header_line_color">@android:color/holo_red_light</color>
+
+
+    <!-- Material Design TableView Colors -->
+    <color name="md_cell_text_color">#1f1f1f</color>
+    <color name="md_column_header_text_color">#696969</color>
+    <color name="md_highlight_row_background_color">#EEEEEE</color>
+    <color name="md_selected_background_color">#F5F5F5</color>
+    <color name="md_cell_line_color">#dbdbdb</color>
+
+    <!-- Overriding the default values of the tableView -->
+    <!-- <color name="cell_line_color">#dbdbdb</color> -->
+    <!-- <color name="table_view_selected_background_color">@color/md_selected_background_color</color> -->
+    <!--  <color name="default_background_color">@color/cell_background_color</color> -->
+    <color name="default_background_color">#C1C1C1</color>
+    <color name="default_shadow_color">#696969</color>
+
+    <color name="default_ligth_color">#D9A5A5A5</color>
+
+     <color name="default_schema_color">#ca79ddff</color>
+
+     <color name="btn_pressed">#72c4df</color>
+     <color name="dialog_aplha">#8cb7f2f4</color>
+     <color name="btn_normal">#8cb7f2f4</color>
+     <color name="btn_positive">#bf56e962</color>
+     <color name="btn_negative">#bfed4d13</color>
+  </resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        card_view:cardBackgroundColor="@color/default_color_card"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="5dp"
+        card_view:contentPadding="10dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:background="@color/default_ligth_color"
+                android:layout_margin="5dp"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/btnTalonReWrite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/bkg"
+                    android:contentDescription="@string/reWrite"
+                    android:padding="5dp"
+                    android:src="@drawable/edit_doc" />
+
+                <ImageButton
+                    android:id="@+id/btnTalonInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/bkg"
+                    android:contentDescription="@string/edit"
+                    android:padding="5dp"
+                    android:src="@drawable/del_trash" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llHeader"
+                style="@style/HeaderLine">
+
+                <TextView
+                    android:id="@+id/item_talon_talon_num_val"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="5"
+                    android:text="@string/txt_conftal_talon_num"
+                    android:textSize="32dp"
+                    android:typeface="monospace" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/item_talon_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/item_talon_polis_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.08"
+                    android:gravity="center_horizontal"
+                    android:text="@string/input_polis_num"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <LinearLayout
+                    android:id="@+id/llHeaderTalon2"
+                    style="@style/HeaderLine">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_conftal_dt"
+                        android:textColor="@color/dark_grey"
+                        android:textStyle="bold"
+
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/item_talon_dt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/txt_conftal_dt"
+                    android:typeface="monospace" />
+
+                <LinearLayout
+                    android:id="@+id/llHeaderTalon3"
+                    style="@style/HeaderLine">
+
+                    <TextView
+                        style="@style/HeaderLine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_conftal_spec"
+                        android:textColor="@color/dark_grey"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/item_talon_spec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/txt_conftal_spec"
+                    android:typeface="monospace" />
+
+                <LinearLayout
+                    android:id="@+id/llHeaderTalon4"
+                    style="@style/HeaderLine">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_conftal_doct"
+                        android:textColor="@color/dark_grey"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/item_talon_doct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/txt_conftal_doct"
+                    android:typeface="monospace" />
+
+                <LinearLayout
+                    android:id="@+id/llHeaderTalon5"
+                    style="@style/HeaderLine">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_conftal_clinic"
+                        android:textColor="@color/dark_grey"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/item_talon_clinic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/txt_conftal_clinic"
+                    android:typeface="monospace" />
+
+                <LinearLayout
+                    android:id="@+id/llHeaderTalon6"
+                    style="@style/HeaderLine">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_conftal_clinic_adr"
+                        android:textColor="@color/dark_grey"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/item_talon_clinic_adr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/txt_conftal_clinic_adr"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/item_talon_dbg_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

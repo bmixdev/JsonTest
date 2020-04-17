@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Запись к врачу</string>
+    <string name="txtCityName">Выберите населенный пункт</string>
+    <string name="txtLpuName">Выберите медицинское учреждение</string>
+    <string name="txtSpecName">Выберите специализацию</string>
+    <string name="txtDoctName">Выберите врача и дату приема</string>
+    <string name="txtDoctNameShort">Выберите врача</string>
+    <string name="txtTimeName">Выбор времени посещения</string>
+    <string name="empty">Данные отсутствуют</string>
+    <string name="slmenu_options">Настройки</string>
+    <string name="slmenu_polis">Мои полисы</string>
+    <string name="slmenu_mainfrag">Мои талоны</string>
+    <string name="slmenu_favorites">Избранное</string>
+    <string name="slideMenuMailToRazrab">Написать письмо разработчику</string>
+    <string name="slideMenuMailToRazrab_foot">присылайте замечания и пожелания по развитию приложения</string>
+    <string name="slideMenuMailToHelp">Пользовательская справка</string>
+    <string name="slideMenuMailToHelp_foot">инструкция по работе с приложением</string>
+    <string name="slideMenuMailToRateApp">Оценить на Google Play</string>
+    <string name="slideMenuMailToRateApp_foot">поддержите развитие приложения</string>
+    <string name="slideMenuMailToShareApp">Поделиться ссылкой</string>
+    <string name="slideMenuMailToShareApp_foot">помогите друзьям узнать о приложении</string>
+    <string name="slideMenuMailTo4PDA">Открыть форум 4PDA</string>
+    <string name="slideMenuMailTo4PDA_foot">обсудите на форуме</string>
+    <string name="item_exit">Выход</string>
+    <string name="launch_title">Запись к врачу</string>
+    <string name="launch_bottom">BmixDev 2020</string>
+    <string name="launch_covid19">Уважаемые соотечественники!\nПризываю Вас серьезно относиться к принимаемым правительством мерам, только совместными усилиями мы можем сократить случаи заражения COVID-19!\nБерегите себя и своих близких!</string>
+    <string name="developer_email">codxxx@gmail.com</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="reWrite">Перезаписаться</string>
+    <string name="sync">Sync</string>
+    <string name="input_f">Введите фамилию</string>
+    <string name="input_i">Введите имя</string>
+    <string name="input_o">Введите отчество</string>
+    <string name="input_polis_num">Введите номер полиса</string>
+    <string name="input_phone">Введите контактный телефон</string>
+    <string name="input_email">Введите адрес электронной почты</string>
+    <string name="input_birthday">Введите дату рождения</string>
+    <string name="txt_conftal_dt">Дата и время приема</string>
+    <string name="txt_conftal_doct">Врач</string>
+    <string name="txt_conftal_spec">Специализация</string>
+    <string name="txt_conftal_clinic">Медицинское учреждение</string>
+    <string name="txt_conftal_clinic_adr">Адрес</string>
+    <string name="txt_conftal_talon_num">Номер талона</string>
+    <string name="txt_conftal_old_talon_num">Номер заменяемого талона</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="cancel">Отменить</string>
+    <string name="xmlCVT_CreateVisitResult">CreateVisitResult</string>
+    <string name="xmlCVT_CancelVisit_Result">CancelVisitResult</string>
+    <string name="xmlCVT_CreateVisitResult_aResult">Result</string>
+    <string name="xmlCVT_CreateVisitResult_aCode">Code</string>
+    <string name="xmlCVT_CreateVisitResult_aStubNum">StubNum</string>
+    <string name="xmlCVT_ErrorDescription">ErrorDescription</string>
+    <string name="doIt">Выполнить</string>
+    <string name="view">View</string>
+    <string name="sTrue">true</string>
+    <string name="sFalse">false</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Произошла непредвиденная ошибка.\n Извините за неудобства.</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Перезапустить приложение</string>
+    <string name="customactivityoncrash_error_activity_close_app">Закрыть приложение</string>
+    <string name="customactivityoncrash_error_activity_error_details">Просмотреть описание ошибки</string>
+    <string name="send_error_developer">Отправить ошибку разработчику</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Описание ошибки</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Закрыть</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Скопировать в буфер</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Скопировать в буфер</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Информация об ошибке</string>
+    <string name="email_developer">codxxx@gmail.com</string>
+
+    <string name="update_app_url_path">http://mbelin.ru/upload/to_doctor/</string>
+    <string name="update_app_url_config">output.json</string>
+
+    <string name="msg_not_avalible_talons">Доступных талонов не найдено!</string>
+    <string name="msg_close">Закрыть</string>
+    <string name="msg_list_avalible_talons">Список доступных талонов</string>
+
+    <string name="time_period_dlg_screen_2">Время по</string>
+    <string name="time_period_dlg_screen_1">Время с</string>
+
+    <string name="favoritIsActive">Активно для сервиса автопоиска</string>
+    
+    <string name="titleFragmentDialogHelpUser">Помошник первого запуска</string>
+    <string name="titleFragmentDialogHelpUserScr1">Экран 1</string>
+	
+	<string name="errorDeletePolisExistFavorites">Удаление полиса не возможно! Для полиса существуют зависимые записи на вкладке "Избранное"</string>
+	<string name="errorDeletePolisExistTalons">Удаление полиса не возможно! Для полиса существуют зависимые записи на вкладке "Мои талоны"</string>
+	<string name="errorEditPolisNotLastName">Необходимо заполнить фамилию</string>
+	<string name="errorEditPolisNotMidleName">Необходимо заполнить имя</string>
+	<string name="errorEditPolisNotFirstName">Необходимо заполнить отчество</string>
+	<string name="errorEditPolisNotBithday">Необходимо заполнить дату рождения</string>
+	<string name="errorEditPolisNotNumPolis">Необходимо заполнить номер полиса</string>
+	<string name="errorEditPolisNotEmail">Необходимо заполнить адрес электронной почты</string>
+	
+	<string name="errorCreateNewTalonNotPolise">"Необходимо добавить информацию о вашем полисе на вкладке "Мои полисы"!"</string>
+	
+	<string name="titleUserHelperScr1">"Добавление информации о своем полисе"</string>
+	<string name="titleUserHelperScr2">"Заполните данные"</string>
+	<string name="titleUserHelperScr3">"Мои полисы"</string>
+	<string name="titleUserHelperScr4">"Резервирование нового талона"</string>
+	<string name="titleUserHelperScr5">"Куда и к кому резервировать талон"</string>
+	<string name="titleUserHelperScr6">"Выбор желаемой времени и даты"</string>
+	<string name="titleUserHelperScr7">"Подтверждение резервирования талона"</string>
+	<string name="titleUserHelperScr8">"Синхронизация талонов с сервером"</string>
+	<string name="titleUserHelperScr9">"Отменить зарезервированный талон"</string>
+	<string name="titleUserHelperScr10">"Добавление избранного"</string>
+	<string name="titleUserHelperScr11">"Что добавить в избранное"</string>
+	<string name="titleUserHelperScr12">"Получение списка доступных талонов"</string>
+	<string name="titleUserHelperScr13">"Резервирование талона из избранного"</string>
+	<string name="descrUserHelperLastScr">"Приятной работы!
+
+	Если Вам понравится приложение, пожалуйста, оцените его в Google Play."</string>
+	<string name="descrRateFragment">"Пожалуйста, оцените наше приложение в Google Play. Нам очень важно Ваше мнение!"</string>
+	<string name="txtAfter">"Позже"</string>
+	<string name="txtNo">"Нет"</string>
+	<string name="txtRate">"Оценить"</string>
+    <string name="urlToAppIn4PDA">http://4pda.ru/forum/index.php?showtopic=887445</string>
+
+    <string name="itemsLinkedCity">Авторизированные населенные пункты</string>
+    <string name="itemsLinkedCity_footer">Ваш полис в них зарегистрирован</string>
+    <string name="itemsNotLinkedCity">Остальные населенные пункты</string>
+    <string name="itemsNotLinkedCity_footer">Ваш полис в них не зарегистрирован</string>
+
+    <string name="cntAvalibleLpu">Кол-во доступных поликлиник: </string>
+    <string name="newTalon">Оформить новый талон</string>
+    <string name="activityNewTalonTitle">Оформление нового талона</string>
+    <string name="activityRewriteTalonTitle">Перезапись талона</string>
+    <string name="addEventToCalendar">Добавить напоминание в календарь</string>
+
+    <string name="btnContinue">Продолжить</string>
+
+    <string name="defaultHttpUserAgent">Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6</string>
+    <string name="defaultHttpUserMobileAgent">Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36</string>
+
+    <string name="chkAvailableServer">Доступность web-сервиса</string>
+    <string name="urlChkAvailableServer">https://uslugi.mosreg.ru/zdrav</string>
+    <string name="urlChkAvailableServer_bad">http://mbelin.ru/mosregerror.html</string>
+
+    <string name="errorWrkSite">Проблемы взаимодействия с web-ресурсом</string>
+    <string name="titleChangeYear">Изменить год</string>
+    <string name="prefixCityId">2dr_geo_</string>
+    <string name="checkUpdate" />
+    <color name="default_color_card">@color/default_shadow_color</color>
+
+    <color name="default_color_ligth_card">@color/default_ligth_color</color>
+</resources>

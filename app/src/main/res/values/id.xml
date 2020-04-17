@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <item type="id" name="fragmentContainer"/>
+  <item type="id" name="slide_menu_item_exit"/>
+  <item type="id" name="slide_menu_item_mail_help"/>
+  <item type="id" name="slide_menu_item_mail_razrab"/>
+  <item type="id" name="slide_menu_item_rate_app"/>
+  <item type="id" name="slide_menu_item_share_app"/>
+  <item type="id" name="slide_menu_item_open_4pda"/>
+</resources>

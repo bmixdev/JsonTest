@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/std_swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_ligth"
+    android:orientation="vertical">
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnPolisItemNew"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_gravity="center"
+            android:text = " + Добавить новый полис "
+            android:background="@drawable/bkg"
+            style="@style/ShapeNormal"
+            />
+    </LinearLayout>
+    -->
+
+    <GridView
+        android:id="@+id/stdGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:horizontalSpacing="5dp"
+        android:numColumns="1" />
+</android.support.v4.widget.SwipeRefreshLayout>

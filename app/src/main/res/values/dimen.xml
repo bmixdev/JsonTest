@@ -1,0 +1,35 @@
+<resources>
+    <dimen name="font_default">14dp</dimen>
+    <dimen name="font_small">10dp</dimen>
+    <dimen name="offset_default">3dp</dimen>
+    <dimen name="padding_default">12dp</dimen>
+
+    <dimen name="data_item_row_height">45dp</dimen>
+    <dimen name="data_item_row_padding">5dp</dimen>
+
+    <dimen name="level_beam_line_width">10dp</dimen>
+    <dimen name="level_beam_line_offset">2dp</dimen>
+    <dimen name="customactivityoncrash_activity_horizontal_margin">16dp</dimen>
+    <dimen name="customactivityoncrash_activity_vertical_margin">16dp</dimen>
+
+    <dimen name="customactivityoncrash_error_activity_error_details_text_size">12sp</dimen>
+    <dimen name="divider_default_value">1dp</dimen>
+    <dimen name="item_width_default_value">200dp</dimen>
+
+    <dimen name="cell_height_min">5dp</dimen>
+    <dimen name="cell_height">40dp</dimen>
+    <dimen name="row_header_width">100dp</dimen>
+    <dimen name="text_size">10sp</dimen>
+
+    <!-- Overriding the default values of the tableView-->
+    <dimen name="default_row_header_width">100dp</dimen>
+    <dimen name="default_column_header_height">40dp</dimen>
+
+
+    <dimen name="slidingmenu_behind_width">280dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="gui_dp_radius">7dp</dimen>
+
+</resources>

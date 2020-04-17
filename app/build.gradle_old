@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    //buildToolsVersion '28.0.1'
+    useLibrary  'org.apache.http.legacy'
+
+    def versionMajor = 1
+    def versionMinor = 0
+    def versionPatch = 1
+    def versionBuild = 12 // bump for dogfood builds, public betas, etc.
+    def appName = "to_doctor"
+
+    defaultConfig {
+        applicationId "ru.bmixsoft.jsontest"
+        versionCode versionMajor * 10000 + versionMinor * 1000 + versionPatch * 100 + versionBuild
+        versionName "${versionMajor}_${versionMinor}_${versionPatch}_${versionBuild}"
+        minSdkVersion 16
+        targetSdkVersion 28
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        debug {
+            project.ext.loadSign = false
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "${appName}_${variant.name}_${variant.versionName}.apk"
+                }
+            }
+        }
+        release {
+            project.ext.loadSign = true
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "${appName}_${variant.name}_${variant.versionName}.apk"
+                }
+            }
+            storeFile file('C:/Android/Key/my_key_store.jks')
+            keyAlias 'BmixApp'
+            keyPassword 'bmix170886'
+            storePassword 'bmix170886'
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.release
+        }
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //compile files('libs/dbhelper-2.0.1.jar')
+    implementation 'com.android.support:appcompat-v7:25.+'
+    implementation 'com.android.support:recyclerview-v7:25.+'
+    implementation 'cz.msebera.android:httpclient:4.3.6'
+    implementation project(':lib:SlidingMenu')
+    //compile files('libs/android-async-http-1.4.9.jar')
+    //compile 'com.github.HYY-yu:TableRecyclerView:v1.0.0'
+    //  compile 'com.evrencoskun.library:tableview:0.8.3'
+    implementation project(':viewpagerindicator')
+    implementation 'com.github.GrenderG:Toasty:1.4.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

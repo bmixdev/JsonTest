@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:sabd="http://schemas.android.com/apk/res-auto" >
+  <!--
+  <item android:id="@+id/menu_main_add_device"
+    android:icon="@android:drawable/ic_menu_add"
+    android:title="@string/add_device"
+    android:showAsAction="ifRoom|withText"/>
+
+  <item android:id="@+id/menu_main_refresh"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Обновить"
+        sabd:showAsAction="always"/>
+  <item android:id="@+id/menu_main_delete_cache"
+      android:icon="@android:drawable/ic_delete"
+      android:title="Удалить"
+      sabd:showAsAction="always"/>
+
+        -->
+    <item android:id="@+id/menu_std_add"
+        android:icon="@drawable/add_document_small"
+        android:title="Добавить"
+        sabd:showAsAction="always"/>
+
+</menu>

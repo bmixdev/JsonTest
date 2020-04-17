@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/sql_activity_tvsql"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:textSize="16sp"
+            style="@style/AlertDialog.AppCompat"
+            android:singleLine="false"
+            android:typeface="monospace"/>
+        <Button
+            android:id="@+id/sql_activity_exec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выполнить"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tvSqlErr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.evrencoskun.tableview.TableView
+            android:id="@+id/sqlTableView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:column_header_height="@dimen/cell_height"
+            app:row_header_width="@dimen/row_header_width"
+            app:selected_color="@color/md_selected_background_color"
+            app:shadow_color="@color/table_view_default_shadow_background_color"
+            app:unselected_color="@color/table_view_default_unselected_background_color"
+            />
+
+    </LinearLayout>
+</LinearLayout>

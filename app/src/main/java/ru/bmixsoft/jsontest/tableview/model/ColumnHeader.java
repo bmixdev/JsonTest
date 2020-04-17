@@ -1,0 +1,17 @@
+package ru.bmixsoft.jsontest.tableview.model;
+
+/**
+ * Created by evrencoskun on 11/06/2017.
+ */
+
+public class ColumnHeader extends Cell {
+
+    public ColumnHeader(String p_strId) {
+        super(p_strId);
+    }
+
+    public ColumnHeader(String p_strId, String p_strData, int col) {
+        super(p_strId, "", p_strData, 0, col);
+    }
+}
+
